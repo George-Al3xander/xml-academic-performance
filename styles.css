@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #f8f9fa;
+  --background-color: #ffffff;
+  --highlight-color: #e9ecef;
+  --border-color: #ccc;
+  --font-family: "Poppins", sans-serif;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-sm: 0.875rem;
+  --spacing-base: 1.25rem;
+  --spacing-sm: 0.625rem;
+  --spacing-xs: 0.3125rem;
+  --border-radius: 0.3125rem;
+}
+
+performance {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  display: block;
+  width: min(90%, 40rem);
+  margin: 1rem auto;
+}
+
+performance::before {
+  content: "Academic performance";
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+subject {
+  display: block;
+  border: 0.125rem solid var(--primary-color);
+  background-color: var(--background-color);
+  margin-bottom: var(--spacing-base);
+  padding: var(--spacing-sm);
+  border-radius: var(--border-radius);
+}
+
+title {
+  display: block;
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+subject > code {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+cycle,
+reporting {
+  display: inline-block;
+  font-size: var(--font-size-sm);
+  background: var(--highlight-color);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius);
+  margin-right: var(--spacing-xs);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+cycle::after {
+  content: "course cycle";
+  font-weight: bold;
+  margin-left: var(--spacing-xs);
+}
+
+reporting::after {
+  content: "reporting";
+  margin-left: var(--spacing-xs);
+}
+
+major {
+  display: block;
+  padding: var(--spacing-sm);
+  margin-top: var(--spacing-sm);
+  background: var(--highlight-color);
+  border-radius: var(--border-radius);
+}
+
+major > title {
+  display: inline;
+}
+
+major > code {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+major > code::after {
+  content: " - ";
+  font-size: var(--font-size-lg);
+}
+
+group {
+  display: block;
+  margin-top: var(--spacing-sm);
+}
+
+group > number,
+group > name {
+  font-weight: 700;
+  text-align: center;
+}
+
+student {
+  display: block;
+  border: 0.0625rem solid var(--border-color);
+  padding: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+  background: var(--background-color);
+  border-radius: var(--border-radius);
+}
+
+student > name {
+  display: block;
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  color: #333;
+}
+
+exam {
+  display: block;
+  margin-top: var(--spacing-xs);
+  padding: var(--spacing-xs);
+  background: #f2f2f2;
+  border-left: 0.25rem solid var(--primary-color);
+}
+
+exam > date,
+exam > grade {
+  display: block;
+  font-weight: bold;
+  margin-right: var(--spacing-sm);
+}
+
+exam > date::before {
+  content: "Date: ";
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
+
+exam > grade::before {
+  content: "Grade: ";
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
+
+student > id::before {
+  content: "Student ID: ";
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
+
+student > code::before {
+  content: "Student Code: ";
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
+
+student > code::after {
+  content: " |";
+}
+
+group > number::before {
+  content: "Group Number: ";
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: var(--spacing-xs);
+}
