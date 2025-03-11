@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Document containing academic performance details -->
+<performance>
+    <!-- Subject details -->
+    <subject>
+        <code>CS101</code>
+        <title>Object-oriented programming</title>
+        <cycle>core</cycle>
+        <reporting>ongoing</reporting>
+        <!-- Major details -->
+        <major>
+            <code>122</code>
+            <title>Bachelor of Science in Computer Science</title>
+            <!-- Group details -->
+            <group>
+                <number>23</number>
+                <name>CS</name>
+                <!-- Student details -->
+                <student>
+                    <name>Al Pacino</name>
+                    <code>143</code>
+                    <id>4882</id>
+                    <!-- Exam results -->
+                    <exam>
+                        <date>12.04.2024</date>
+                        <grade>88</grade>
+                    </exam>
+                    <exam>
+                        <date>24.12.2023</date>
+                        <grade>92</grade>
+                    </exam>
+                    <exam>
+                        <date>17.11.2022</date>
+                        <grade>94</grade>
+                    </exam>
+                </student>
+                <!-- Student details -->
+                <student>
+                    <name>Robert De Niro</name>
+                    <code>144</code>
+                    <id>4883</id>
+                    <!-- Exam results -->
+                    <exam>
+                        <date>15.03.2024</date>
+                        <grade>85</grade>
+                    </exam>
+                    <exam>
+                        <date>10.11.2023</date>
+                        <grade>90</grade>
+                    </exam>
+                    <exam>
+                        <date>05.06.2022</date>
+                        <grade>88</grade>
+                    </exam>
+                </student>
+            </group>
+        </major>
+    </subject>
+    <!-- Subject details -->
+    <subject>
+        <code>CS102</code>
+        <title>Data Structures</title>
+        <cycle>core</cycle>
+        <reporting>ongoing</reporting>
+        <!-- Major details -->
+        <major>
+            <code>122</code>
+            <title>Bachelor of Science in Computer Science</title>
+            <!-- Group details -->
+            <group>
+                <number>24</number>
+                <name>CS</name>
+                <!-- Student details -->
+                <student>
+                    <name>James Gandolfini</name>
+                    <code>145</code>
+                    <id>4884</id>
+                    <!-- Exam results -->
+                    <exam>
+                        <date>20.02.2024</date>
+                        <grade>89</grade>
+                    </exam>
+                    <exam>
+                        <date>18.12.2023</date>
+                        <grade>93</grade>
+                    </exam>
+                    <exam>
+                        <date>09.10.2022</date>
+                        <grade>90</grade>
+                    </exam>
+                </student>
+                <!-- Student details -->
+                <student>
+                    <name>Marlon Brando</name>
+                    <code>146</code>
+                    <id>4885</id>
+                    <!-- Exam results -->
+                    <exam>
+                        <date>05.04.2024</date>
+                        <grade>91</grade>
+                    </exam>
+                    <exam>
+                        <date>22.09.2023</date>
+                        <grade>87</grade>
+                    </exam>
+                    <exam>
+                        <date>15.07.2022</date>
+                        <grade>92</grade>
+                    </exam>
+                </student>
+            </group>
+        </major>
+    </subject>
+    <!-- Subject details -->
+    <subject>
+        <code>CS103</code>
+        <title>Algorithms</title>
+        <cycle>core</cycle>
+        <reporting>ongoing</reporting>
+        <!-- Major details -->
+        <major>
+            <code>122</code>
+            <title>Bachelor of Science in Computer Science</title>
+            <!-- Group details -->
+            <group>
+                <number>25</number>
+                <name>CS</name>
+                <!-- Student details -->
+                <student>
+                    <name>Joe Pesci</name>
+                    <code>147</code>
+                    <id>4886</id>
+                    <!-- Exam results -->
+                    <exam>
+                        <date>30.03.2024</date>
+                        <grade>86</grade>
+                    </exam>
+                    <exam>
+                        <date>12.11.2023</date>
+                        <grade>91</grade>
+                    </exam>
+                    <exam>
+                        <date>20.08.2022</date>
+                        <grade>89</grade>
+                    </exam>
+                </student>
+                <!-- Student details -->
+                <student>
+                    <name>Harvey Keitel</name>
+                    <code>148</code>
+                    <id>4887</id>
+                    <!-- Exam results -->
+                    <exam>
+                        <date>14.05.2024</date>
+                        <grade>92</grade>
+                    </exam>
+                    <exam>
+                        <date>27.10.2023</date>
+                        <grade>88</grade>
+                    </exam>
+                    <exam>
+                        <date>19.09.2022</date>
+                        <grade>87</grade>
+                    </exam>
+                </student>
+            </group>
+        </major>
+    </subject>
+</performance>
